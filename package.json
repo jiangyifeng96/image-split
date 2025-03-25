@@ -1,0 +1,11 @@
+{
+  "name": "image-split",
+  "version": "1.0.0",
+  "description": "Image Split Tool - Create 9-Grid Social Media Images",
+  "scripts": {
+    "generate-images": "node scripts/generate-images.js"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2"
+  }
+} 

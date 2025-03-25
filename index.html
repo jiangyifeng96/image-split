@@ -19,6 +19,28 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <link rel="stylesheet" href="src/css/style.css">
+    <meta property="og:title" content="Image Split Tool - Create 9-Grid Social Media Images">
+    <meta property="og:description" content="Split your images into a 9-grid layout for social media. Easy to use, drag and drop interface with instant preview.">
+    <meta property="og:image" content="https://imagesplit.info/og-image.jpg">
+    <meta property="og:url" content="https://imagesplit.info">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Image Split Tool">
+    <meta name="twitter:description" content="Split your images into a 9-grid layout for social media">
+    <meta name="twitter:image" content="https://imagesplit.info/twitter-image.jpg">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Image Split Tool",
+      "description": "Split your images into a 9-grid layout for social media",
+      "url": "https://imagesplit.info",
+      "applicationCategory": "Image Editor",
+      "operatingSystem": "Web Browser"
+    }
+    </script>
+    <link rel="alternate" hreflang="zh" href="https://imagesplit.info/zh/" />
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>
 <body class="bg-gray-50">
     <header class="bg-white shadow-sm">
@@ -35,7 +57,7 @@
             <!-- Upload Area -->
             <div id="upload-area" class="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center">
                 <div class="space-y-4">
-                    <svg class="mx-auto h-12 w-12 text-gray-400" stroke="currentColor" fill="none" viewBox="0 0 48 48">
+                    <svg class="mx-auto h-12 w-12 text-gray-400" stroke="currentColor" fill="none" viewBox="0 0 48 48" aria-label="Upload icon">
                         <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                     <div class="text-gray-600">

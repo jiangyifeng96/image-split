@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Allow: /sitemap.xml
+Allow: /favicon.png
+Allow: /og-image.jpg
+Allow: /twitter-image.jpg
+Allow: /apple-touch-icon.png
+
+# Sitemap
+Sitemap: https://imagesplit.info/sitemap.xml
+
+# Disallow admin or private areas if any
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/ 
